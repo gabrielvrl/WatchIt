@@ -2,6 +2,7 @@
 
 const debounce = require('lodash.debounce')
 const chokidar = require('chokidar');
+const program = require('caporal');
 
 const start = debounce(() => {
   console.log('Starting users program');
